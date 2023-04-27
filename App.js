@@ -1,8 +1,8 @@
 import { createContext, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import RestaurantList from './.expo/components/RestaurantList';
-import RestaurantDetails from './.expo/components/RestaurantDetails';
+import RestaurantList from './components/RestaurantList';
+import RestaurantDetails from './components/RestaurantDetails';
 
 const Stack = createNativeStackNavigator()
 
