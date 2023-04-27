@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import { StyleSheet, View, Text, Image } from "react-native"
-import { RestaurantContext } from "../../App"
+import { RestaurantContext } from "../App"
 
 
 export default function RestaurantDetails (){
